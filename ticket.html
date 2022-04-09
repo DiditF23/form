@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Ticket</title>
+</head>
+<body>
+	<main>
+		<div class="sidebar">
+			<div class="top">
+				<h2>Nontongo</h2>
+			</div>
+			<ul>
+				<li>
+					<a href="login.html"><i class="fas fa-user-alt"></i> Login</a>
+				</li><br><br>
+				<li>
+					<a href="signin.html"><i class="fas fa-user-tie"></i> Sign In</a>
+				</li><br><br>
+				<li>
+					<a href="ticket.html"><i class="fas fa-users"></i> Ticket</a>
+				</li>
+			</ul>
+		</div>
+	</main>
+	<div class="ticket">
+		<h4><center>Ticket Booking</center></h4>
+		<form action="#" method="POST">
+			<table align="center">
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td><input  type="text" name="name" /></td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td>:</td>
+					<td><input  type="number" name="age"/></td>
+				</tr>
+                <tr>
+					<td>Gender</td>
+					<td>:</td>
+					<td><input type="radio" name="gender" value="male"/>Male
+						<input type="radio" name="gender" value="female"/>Female
+					</td>
+				</tr>
+				<tr>
+					<td>Class</td>
+					<td>:</td>
+					<td>
+						<select name="class">
+							<option value="vvip">VVIP</option>
+							<option value="vip">VIP</option>
+							<option value="premium">Premium</option>
+							<option value="Regular">Regular</option>
+						</select>
+					</td>
+				</tr>
+					<tr>
+						<td>Seat</td>
+						<td>:</td>
+						<td>
+							<input type="radio" name="gol" value="a"> A
+							<input type="radio" name="gol" value="b"> B
+							<input type="radio" name="gol" value="c"> C
+							<input type="radio" name="gol" value="d"> D
+							<input type="radio" name="gol" value="e"> E
+							<input type="radio" name="gol" value="f"> F
+						</td>
+					</tr>
+				
+					<tr>
+						<td>Contact</td>
+						<td>:</td>
+						<td><input type="text" name="contact" placeholder="+62"/></td>
+					</tr>
+					<tr>
+						<td></td> <br>
+						<td></td>
+						<td>
+							<button type="submit" name="go">Go</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+		</body>
+		</html>
